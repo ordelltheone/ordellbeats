@@ -17,6 +17,10 @@
   display: flex;
   align-items: center;
 }
+.header img {
+  display: block;
+  margin: auto;
+}
 nav{
   width: 100%;
   display: flex;
