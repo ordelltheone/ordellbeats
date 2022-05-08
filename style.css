@@ -21,9 +21,10 @@ nav{
   padding: 20px 0;
 }
 #nav ul {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
+  text-decoration: none; 
+  margin: 0;
+  padding: 0;
+  display: inline-block;
 }
 }
 nav ul li{
