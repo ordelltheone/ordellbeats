@@ -40,8 +40,8 @@ details {
   font: 16px "Open Sans", Calibri, sans-serif;
   width: 620px;
 }
-summary {
-    display:block;
+summary::marker {
+  content: "";
 }
 p {
   border-radius: 0 0 10px 10px;
