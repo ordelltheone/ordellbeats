@@ -41,3 +41,7 @@ nav ul li a{
 summary::marker {
   content: "";
 }
+details > p {
+  width: 290px;
+  display: inline-block;
+}
