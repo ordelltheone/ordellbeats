@@ -36,9 +36,7 @@ nav ul li{
 nav ul li a{
   text-decoration: none;
   color: #;
-details {
-  font: 16px "Open Sans", Calibri, sans-serif;
-  width: 620px;
+
 }
 summary::marker {
   content: "";
