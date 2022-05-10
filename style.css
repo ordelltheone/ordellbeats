@@ -44,4 +44,5 @@ summary::marker {
 details > p {
   width: 290px;
   display: inline-block;
+  text-align: center;
 }
