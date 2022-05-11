@@ -13,12 +13,16 @@
     margin: auto;
     align-items: center;
     justify-content: center;
-    object-fit: cover;
+  
   }
-.mid-section{
+  .mid-section{
   display: flex;
   flex-direction: row;
-}
+  width: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  }
   summary::marker {
     content: "";
   }
