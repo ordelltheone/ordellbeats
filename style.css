@@ -42,6 +42,7 @@ summary::marker {
   content: "";
 }
 details > p {
+  font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
   width: 290px;
   display: inline-block;
   text-align: center;
