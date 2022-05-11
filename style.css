@@ -18,8 +18,8 @@
   align-items: center;
 }
 .header img {
-  display: block;
-  margin: flex;
+  display: flex;
+  margin: auto;
 }
 nav{
   width: 100%;
