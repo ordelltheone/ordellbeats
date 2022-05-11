@@ -1,10 +1,8 @@
- .header{
-    width: 100%;
-    flex:1;
-    overflow-y: auto;
+  .header{
+    display: flex;
     flex-direction: column;
     align-items: center;
-      
+    width:100%;
   }
   .mid-section{
   display: flex;
@@ -25,11 +23,14 @@
     display: inline-block;
     text-align: center;
   }
-  .beats{
+  .beats1 {
     display: flex;
     flex-direction: row;
-    width: 100%;
-    margin: auto;
     align-items: center;
     justify-content: center;
+  }
+  .beats1 img{
+    max-width:100%;
+    display: block;
+    align-self: center;
   }
