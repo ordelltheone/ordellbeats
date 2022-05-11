@@ -1,19 +1,10 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-  }
-  
-
-.header{
+ .header{
     width: 100%;
-    display: flex;
+    flex:1;
+    overflow-y: auto;
     flex-direction: column;
-    margin: auto;
     align-items: center;
-    justify-content: center;
-  
+      
   }
   .mid-section{
   display: flex;
@@ -36,6 +27,9 @@
   }
   .beats{
     display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: auto;
     align-items: center;
     justify-content: center;
   }
