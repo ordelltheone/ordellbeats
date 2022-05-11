@@ -1,8 +1,16 @@
-  .header{
+ .header{
     display: flex;
     flex-direction: column;
     align-items: center;
     width:100%;
+  }
+  h1 {
+    font-weight: normal;
+    font-size: 10px;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    text-align: center;
+    word-wrap: break-word;
+    width: 760px;
   }
   .mid-section{
   display: flex;
@@ -34,3 +42,4 @@
     display: block;
     align-self: center;
   }
+
