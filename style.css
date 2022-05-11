@@ -8,7 +8,7 @@
 .flexbox-container {
   display: flex;
   justify-content: center;
-
+}
 #header {
   text-align: center;
   width: 100%;
