@@ -5,12 +5,15 @@
     width:100%;
   }
   h1 {
+    display: flex;
     font-weight: normal;
     font-size: 10px;
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     text-align: center;
     word-wrap: break-word;
-    width: 760px;
+    width: 100%;
+    max-width:1020px;
+    color: #5a5b5c;
   }
   .mid-section{
   display: flex;
@@ -42,4 +45,3 @@
     display: block;
     align-self: center;
   }
-
