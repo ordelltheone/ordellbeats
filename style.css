@@ -142,37 +142,44 @@
     position: relative;
   
    }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) and (min-width:400px)
+
+{
   .email{
     font-size: 73%;
     }
 
 }
-@media screen and (max-width: 400px){
+@media screen and (max-width: 400px) and (min-width:350px)
+{
   .email{
     font-size: 65%;
     }
 
 }
-@media screen and (max-width: 350px){
+@media screen and (max-width: 350px)
+{
   .email{
     font-size: 58%;
     }
   }
-@media screen and (max-device-width: 500px){
+@media screen and (max-device-width: 500px) and (min-device-width:400px)
+{
     .email{
       font-size: 73%;
       }
   
-  }
-@media screen and (max-device-width: 400px){
+}
+@media screen and (max-device-width: 400px) and (min-device-width:350)
+{
     .email{
       font-size: 65%;
       }
   
-  }
-@media screen and (max-device-width: 350px){
+}
+@media screen and (max-device-width: 350px)
+{
     .email{
       font-size: 58%;
       }
-    }
+}
