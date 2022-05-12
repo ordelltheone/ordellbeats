@@ -70,6 +70,78 @@
     position: relative;
   
    }
+   .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    max-width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    display: flex;
+    font-weight: normal;
+    font-size: 55%;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    word-wrap: break-word;
+    width: 100%;
+    max-width:1020px;
+    color: #5a5b5c;
+
+
+  }
+  .mid-section{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 800px;
+  align-items: center;
+  align-self: center;
+  justify-content:space-around;  
+ 
+  }
+  .mid-section img{
+    max-width: 100%;
+    display: block;
+       
+   
+  }
+
+  .beats1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    max-width:800px;
+    
+  }
+  .beats1 img{
+    max-width:100%;
+    display: block;
+    
+  }
+  .container{
+    display: flex;
+    max-width: 1020px;
+    width:100%;
+  }
+ 
+  .email{
+    display: flex;
+    text-align: center;
+    width:100%;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-weight: bold;
+    font-size: 95%;
+    margin-top: -22%;
+    margin-left: 12%;
+    position: relative;
+  
+   }
 @media screen and (max-width: 500px){
   .email{
     font-size: 73%;
@@ -87,3 +159,20 @@
     font-size: 58%;
     }
   }
+@media screen and (max-device-width: 500px){
+    .email{
+      font-size: 73%;
+      }
+  
+  }
+@media screen and (max-device-width: 400px){
+    .email{
+      font-size: 65%;
+      }
+  
+  }
+@media screen and (max-device-width: 350px){
+    .email{
+      font-size: 58%;
+      }
+    }
