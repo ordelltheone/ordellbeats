@@ -7,43 +7,65 @@
   h1 {
     display: flex;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 0.5vw;
     font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
     text-align: center;
+    margin-top: 0%;
+    margin-bottom: 1%;
     word-wrap: break-word;
     width: 100%;
     max-width:1020px;
     color: #5a5b5c;
+
+
   }
   .mid-section{
   display: flex;
   flex-direction: row;
   width: 100%;
+  max-width: 1020px;
   margin: 0%;
   align-items: center;
+  align-self: center;
   justify-content: center;
-  
+  position: relative;
+
+
   }
-  summary::marker {
-    content: "";
+  .mid-section img{
+    max-width: 100%;
+    position: relative;
+   
   }
-  details > p {
-    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
-    font-size: 24px;
-    margin: 10px;
-    width: 290px;
-    display: inline-block;
-    text-align: center;
-  }
+
   .beats1 {
     display: flex;
     flex-direction: row;
     align-items: center;
     align-self: center;
     max-width:800px;
+    
   }
   .beats1 img{
     max-width:100%;
     display: block;
     box-align: center;
   }
+  .container{
+    display: flex;
+    max-width: 1020px;
+    width:100%;
+  }
+ 
+  .email{
+    display: flex;
+    text-align: center;
+    width:100%;
+    font-family: Courier New, Courier, Lucida Sans Typewriter, Lucida Typewriter, monospace;
+    font-weight: bold;
+    font-size: 0.8vw;
+    margin-top: -22%;
+    margin-left: 12%;
+    position: relative;
+  
+   }
